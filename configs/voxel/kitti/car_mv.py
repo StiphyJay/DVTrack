@@ -1,6 +1,5 @@
 _base_ = '../../default_runtime.py'
-# data_dir = '/home/user/data/kitti'
-data_dir = '/home/ly/P2P-main/data'
+data_dir = '/home/user/data/kitti'
 category_name = 'Car'
 batch_size = 128
 point_cloud_range = [-4.8, -4.8, -1.5, 4.8, 4.8, 1.5]
