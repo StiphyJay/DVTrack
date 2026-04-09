@@ -1,5 +1,35 @@
+# Project outputs
 work_dir/
 outputtest/
+
+# OS / editor
 .DS_Store
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Python cache / build
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Packaging / virtualenv
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Common local IDE settings
+.vscode/
+.idea/
