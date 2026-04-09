@@ -18,7 +18,7 @@ def parse_args():
         '--load_from', default='/home/ly/P2P-main/output/epoch_221.pth',#读取与训练模型
         help='train config file path')
     parser.add_argument(
-        '--launcher',#作业启动其
+        '--launcher',#作业启动
         choices=['none', 'pytorch', 'slurm', 'mpi'],
         default='none',
         help='job launcher')
