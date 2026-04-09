@@ -1,3 +1,5 @@
 work_dir/
 outputtest/
 .DS_Store
+__pycache__/
+*.pyc
