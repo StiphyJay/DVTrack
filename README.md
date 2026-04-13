@@ -61,6 +61,8 @@ Point Cloud Tracking in Intelligent Transportation Systems**
 
 - [Testing](https://github.com/StiphyJay/DVTrack/tree/main/docs/TESTING.md)
 
+- [Model Weights](https://drive.google.com/file/d/1Kh-MiHUvBfpRo1lCakteKp6iH5YNH0K6/view?usp=sharing) (Download model weights in here.)
+
 
 ## ❤️ Acknowledgement
 
