@@ -8,15 +8,27 @@ use_rot = False
 
 
 model = dict(
-    type='P2PVoxel',
-    backbone=dict(type='VoxelNet',
+    type='DVMultiVoxel',
+    backbone=dict(type='MultiViewNet',
                   points_features=3,
                   point_cloud_range=point_cloud_range,
                   voxel_size=[0.15, 0.15, 0.3],
                   grid_size=[21, 128, 128],
                   output_channels=128
                   ),
-    fuser=dict(type='BEVFuser'),
+    neck=dict(type='Cross_Attention_Decouple',
+              bev_input_channel=256,#384,
+              rv_input_channel=256,#384,
+              embed_dim=256,#384,#？？？
+              num_heads=1,
+              bev_size=(16,16),#(160, 160),
+              bev_block_res=(2, 2),#，(40, 40),
+              rv_size=(16,2),#(160, 12),
+              rv_block_res=(16, 0.25),#(40, 12),
+              hidden_channels=512
+    ),
+    
+    fuser=dict(type='BEVMultiFuser'),
     head=dict(
         type='VoxelHead',
         q_distribution='laplace',  # ['laplace', 'gaussian']
