@@ -3,7 +3,7 @@
 The official implementation of the paper: 
 
 **DVTrack: Dual-View Alignment-Attention for 3D
-Point Cloud Tracking in Intelligent Transportation Systems**
+Point Cloud Tracking in Intelligent Transportation Systems** [VIDEO(bilibili)](https://www.bilibili.com/video/BV1oo3LzUEh8?t=24.8)
 
 
 <div id="top" align="center">
