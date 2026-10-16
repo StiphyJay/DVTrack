@@ -48,8 +48,6 @@ Point Cloud Tracking in Intelligent Transportation Systems**
 ## 📋 TODO List
 
 - [ ] release the arxiv version.
-- [ ] release the installation, training, and testing details.
-- [ ] release the implementation of our model.
 
 ## 🕹️ Getting Started
 
