@@ -74,7 +74,7 @@ If any parts of our paper and code help your research, please consider citing us
 
 ```bibtex
 @article{dvtrack,
- title={DVTrack: Dual-View Alignment-Attention for 3D
-Point Cloud Tracking in Intelligent Transportation Systems},
+author={Yuan Li, Sifan Zhou, Jiahao Nie, Wei Zhou, Yutan Zhang, Zhifeng Liu, Zhang Yuan, Lin Hua},
+title={DVTrack: Dual-View Alignment-Attention for 3D Point Cloud Tracking in Intelligent Transportation Systems},
  year={2026}
 }
